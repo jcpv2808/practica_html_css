@@ -1,0 +1,18 @@
+img{
+    max-width: 50%;
+    height:auto;
+}
+h2{
+    color: blueviolet;
+}
+#adidas{
+    width: 100%;
+    height: auto;
+}
+#div_amarillo{
+    background-color: yellow;
+}
+#span_azul{
+    background-color: blue;
+    color: #fff;
+}

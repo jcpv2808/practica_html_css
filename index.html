@@ -10,32 +10,94 @@
     </head>
 <body>
     <h2>Etiquetas semanticas estructurales</h2>
-    <h3>DIV</h3>
-        <p>DIV - es una que no tiene semantica</p>
-    <h3>Header</h3>
-        <p>Representa la cabezera de un sitio web</p>
-        <header>Esto es un header</header>
-    <h3>Main</h3>
-        <p>Representa la seccion principal del Documento - Solo exite una por documento</p>
-        <main>Soy un main</main>
-    <h3>Footer</h3>
-        <p>representa el pie de pagina del documento</p>
-        <footer>Soy un footer</footer>
-    <h3>Nav</h3>
-        <p>Representa una navegacion</p>
-        <nav>SSoy un Nav</nav>
-    <h3>Article</h3>
-        <p>Representa una seccion de autocontenido(se esplica por si solo)</p>
-        <article>Soy un article</article>
-    <h3>Aside</h3>
-        <p>Representa un contenido complementario o secundario</p>
-        <aside>Soy un aside</aside>
-    <h3>Section</h3>
-        <p>Reprensenta una seccion de contenido generico</p>
-        <section>Soy un Section</section>
-    <h3>Address</h3>
-        <p>Reprensenta una direccion fisica, o informacion de contacto</p>
-        <address>Soy un Address</address>
+        <h3>DIV</h3>
+            <p>DIV - es una etiqueta que no tiene semantica</p>
+        <h3>Header</h3>
+            <p>Representa la cabezera de un sitio web</p>
+            <header>Esto es un header</header>
+        <h3>Main</h3>
+            <p>Representa la seccion principal del Documento - Solo exite una por documento</p>
+            <main>Soy un main</main>
+        <h3>Footer</h3>
+            <p>representa el pie de pagina del documento</p>
+            <footer>Soy un footer</footer>
+        <h3>Nav</h3>
+            <p>Representa una navegacion</p>
+            <nav>Soy un Nav</nav>
+        <h3>Article</h3>
+            <p>Representa una seccion de autocontenido(se esplica por si solo)</p>
+            <article>Soy un article</article>
+        <h3>Aside</h3>
+            <p>Representa un contenido complementario o secundario</p>
+            <aside>Soy un aside</aside>
+        <h3>Section</h3>
+            <p>Reprensenta una seccion de contenido generico</p>
+            <section>Soy un Section</section>
+        <h3>Address</h3>
+            <p>Reprensenta una direccion fisica, o informacion de contacto</p>
+            <address>Soy un Address</address>
+        <h4>Todas las anteriores son etiquetas de bloque</h4>
+    <hr>
+    <h2>Etiquetas de bloque vs etiquetas de linea</h2>
+        <h3>Etiqueta de bloque por exelencia es el "div"</h3>
+            <p>las etiquetas de bloque genera saltos de linea tanto arriba como abajo de si mismas</p>
+            <div id="div_amarillo">
+                <p>Parrafo dentro de un div amarillo</p>
+            </div>
+        <h3>Etiqueta en linea por exelencia es el "span"</h3>
+            <p>las etiquetas de linea solo ocupa el espacio necesario que tiene su contenido</p>
+            <span id="span_azul">Soy un span</span>
+            <span>yo estoy al lado de ese span</span>
+    <hr>
+        <h2>Imagenes</h2>
+            <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" alt="perro">
+            <br>
+            <img id="adidas" src="img/adidas.svg" alt="adidas_logo">
+    <hr>
+        <h2>Figures</h2>
+            <figure><img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" alt="perro">
+            <figcaption>Aqui va la descripcion de la imagen</figcaption>
+            </figure>
+    <hr>
+        <h2>Lisas ordenadas</h2>
+            <h3>Estaciones del año:</h3>
+            <ol>
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            <ol start="3">
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            <ol reversed>
+                <li>Primavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+            <ol type="I">
+                <li>Primmavera</li>
+                <li>Verano</li>
+                <li>Otoño</li>
+                <li>Invierno</li>
+            </ol>
+    <hr>
+        <h2>Listas Desordendas</h2>
+            <h3>Por comprar:</h3>
+            <ul type="square">
+                <li>pan</li>
+                <li>leche</li>
+                <li>huevos</li>
+                <li>harina</li>
+            </ul>
+    <hr>
+        <h2>Listas de definicion</h2>
+            <h3></h3>
+            <dl></dl>
     <script src="js/funciones.js"></script>
 </body>
 </html>
