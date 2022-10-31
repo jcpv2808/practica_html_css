@@ -1,9 +1,22 @@
+html{
+    scroll-behavior: smooth !important;
+}
 img{
     max-width: 50%;
     height:auto;
 }
 h2{
     color: blueviolet;
+}
+a{
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+    transition: ease-in-out 1s;
+    
+}
+a:hover{
+    color: rgb(1, 207, 1);
 }
 #adidas{
     width: 100%;
@@ -15,4 +28,8 @@ h2{
 #span_azul{
     background-color: blue;
     color: #fff;
+}
+.titulo_tabla{
+    color: goldenrod;
+    background-color: #009;
 }

@@ -49,7 +49,7 @@
             <span id="span_azul">Soy un span</span>
             <span>yo estoy al lado de ese span</span>
     <hr>
-        <h2>Imagenes</h2>
+        <h2 id="imagenes">Imagenes</h2>
             <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" alt="perro">
             <br>
             <img id="adidas" src="img/adidas.svg" alt="adidas_logo">
@@ -97,7 +97,119 @@
     <hr>
         <h2>Listas de definicion</h2>
             <h3></h3>
-            <dl></dl>
-    <script src="js/funciones.js"></script>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+                <dt>CSS</dt>
+                <dd>Es un lengauje de definicion que da estilos al codigo HTML</dd>
+                <dt>JavaScript</dt>
+                <dd>Es el lenguaje de la web</dd>
+            </dl>
+    <hr>
+        <h2>Tablas</h2>
+        <table>
+            <tr>
+                <td>Nombre</td>
+                <td>Constelacion</td>
+                <td>Tipo</td>
+            </tr>
+            <tr>
+                <td>Iki</td>
+                <td>Fenix</td>
+                <td>Bronze</td>
+            </tr>
+            <tr>
+                <td>Shaina</td>
+                <td>Ofiuco</td>
+                <td>Plata</td>
+            </tr>
+            <tr>
+                <td>Saga</td>
+                <td>Geminis</td>
+                <td>Dorado</td>
+            </tr>
+        </table>
+        <br><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3" class="titulo_tabla">Tabla de los Santos de Atena</th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Constelacion</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ikki</td>
+                    <td>Fenix</td>
+                    <td>Bronze</td>
+                </tr>
+                <tr>
+                    <td>Shaina</td>
+                    <td rowspan="2">Ofiuco</td>
+                    <td>Plata</td>
+                </tr>
+                <tr>
+                    <td>Odiseo</td>
+                    <td>Dorado</td>
+                </tr>
+                <tr>
+                    <td>Saga</td>
+                    <td>Geminis</td>
+                    <td>Dorado</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3"><small>Saint Seya fue creado por el maestro Masami Kurumada</small></th>
+                </tr>
+            </tfoot>
+        </table>
+    <hr>
+        <h2>Enlaces</h2>
+            <a href="enlace_prueba.html" target="_blank" rel="nofollow">Ir a enlace prueba</a>
+            <br>
+            <a href="https://www.adidas.pe/" target="_blank" rel="nofollow"><img src="img/adidas.svg" alt="Adidas"></a>
+            <br>
+            <a href="mailto:jcp280899@gmail.com">Enviar correo</a>
+            <br>
+            <a href="tel:+51941699100">Llamar por telefono</a>
+            <br>
+            <a href="https://api.whatsapp.com/send/?phone=51941699100&text=Hola jean" target="_blank">Enviar Mensaje</a>
+    <hr>
+        <h2>Enlaces Internos</h2>
+            <a href="#imagenes">.Imagenes</a>
+            <a href="elementos_interactivos">.Elementos Interactivos</a>
+    <hr>
+        <h2 id="elementos_interactivos">Elementos Interactivos</h2>
+        <button onclick="saludo_consola()">Soy un boton</button>
+        <br>
+        <details>
+            <summary>titulo del acordeon</summary>
+            <article>contenido</article>
+            <h3>Soy un h3</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <img src="img/adidas.svg" alt="">
+        </details>
+        <br>
+        <details open>
+            <summary>titulo del acordeon</summary>
+            <article>contenido</article>
+            <h3>Soy un h3</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <img src="img/adidas.svg" alt="">
+        </details>
+        <dialog open="true">
+            esto es un modal
+        </dialog>
+    <hr>
+        <h2>Audio y video</h2>
+        <iframe src="https://player.vimeo.com/video/14234458?h=d4009dc011" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <audio src="media/AUTORACEDRAGSTER6091_91.mp3" controls></audio>
+
 </body>
 </html>
